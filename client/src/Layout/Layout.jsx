@@ -1,7 +1,7 @@
-import { Outlet} from "react-router-dom";
-import { Header } from "../Components/Header";
+import { Outlet } from "react-router-dom";
+import { Header } from "../components/Header";
 
-export function Layout(){
+export function Layout() {
     return(
         <div className="bg-[#05002B]">
             <header>
