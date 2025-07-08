@@ -1,7 +1,7 @@
 export function System() {
     return(
         <>
-        <h1>System</h1>
+            <h1>System</h1>
         </>
     )
 }
