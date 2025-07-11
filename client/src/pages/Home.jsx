@@ -1,7 +1,13 @@
+import { FriendCard } from "../components/FriendCard"
+
 export function Home() {
     return(
         <>
-            <h1>Home</h1>
+            <div className="flex flex-col gap-[20px]">
+                <FriendCard/>
+                <FriendCard/>
+                <FriendCard/>
+            </div>
         </>
     )
 }
