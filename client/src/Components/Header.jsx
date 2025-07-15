@@ -14,7 +14,7 @@ export function Header({ activeTab, setActiveTab }) {
                                     <li>
                                         <button 
                                             onClick={() => setActiveTab('online')}
-                                            className={`text-white hover:text-[#6E4AFF] transition-colors px-3 py-1 rounded ${
+                                            className={`text-white hover:text-[#7000ff] transition-colors px-3 py-1 rounded ${
                                                 activeTab === 'online' 
                                                     ? 'bg-[#6E4AFF] text-white' 
                                                     : 'bg-transparent'
@@ -26,7 +26,7 @@ export function Header({ activeTab, setActiveTab }) {
                                     <li>
                                         <button 
                                             onClick={() => setActiveTab('all')}
-                                            className={`text-white hover:text-[#6E4AFF] transition-colors px-3 py-1 rounded ${
+                                            className={`text-white hover:text-[#7000ff] transition-colors px-3 py-1 rounded ${
                                                 activeTab === 'all' 
                                                     ? 'bg-[#6E4AFF] text-white' 
                                                     : 'bg-transparent'
@@ -38,7 +38,7 @@ export function Header({ activeTab, setActiveTab }) {
                                     <li>
                                         <button 
                                             onClick={() => setActiveTab('pending')}
-                                            className={`text-white hover:text-[#6E4AFF] transition-colors px-3 py-1 rounded ${
+                                            className={`text-white hover:text-[#7000ff] transition-colors px-3 py-1 rounded ${
                                                 activeTab === 'pending' 
                                                     ? 'bg-[#6E4AFF] text-white' 
                                                     : 'bg-transparent'
